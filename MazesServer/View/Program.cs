@@ -32,7 +32,7 @@ namespace Server
 						ClientHandler handler = new ClientHandler(client);
 						//handler.MakeOptions ();
 						//ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(handler.handle));
-						Thread t = new Thread(handler.handle);
+						Thread t = new Thread(h GFDGF andler.handle);
 						t.Start();
 					}
 				}
